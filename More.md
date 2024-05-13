@@ -1,5 +1,5 @@
 
-![Book's Cover](./readme/cover.png)
+![Book's Cover]
 
 You can buy the book on Manning's web site:
 https://www.manning.com/books/advanced-algorithms-and-data-structures
@@ -14,13 +14,13 @@ For each data structure, you can find the link(s) to the livebook Manning's webs
 
 To have a taste of how the book is structured, you can also read this free excerpt from chapter 1, discussing the process of designing an algorithm by progressively solving the "knapsack problem".
 
-[![Knapsack Problem](./readme/article_1.jpg)](https://freecontent.manning.com/packing-your-knapsack-for-a-trip-to-mars/)
+[![Knapsack Problem]
 
 # **D-ary heap**
 ## | [Chapter 2](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-2) | [Java](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/tree/master/Java/src/org/mlarocca/containers/priorityqueue/heap) | [JavaScript](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/tree/master/JavaScript/src/dway_heap) | [Python](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/tree/master/Python/mlarocca/datastructures/heap) | [Jupyter Notebook (profiling)](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/Python/mlarocca/notebooks/Huffman_profiling.ipynb) |
 
 
-[![Top method on a d-ary heap](./readme/thumbs/d-way_heap.md.jpg)](./JavaScript/readme/d-way_heap.png)
+[![Top method on a d-ary heap]
 
 A heap  is  conceptually a  tree,  but it’s implemented  using  an array for the sake of efficiency.
 While regular heaps are binary balanced trees, d-ary heaps use d-ary trees, reducing the tree's height.
@@ -31,7 +31,7 @@ Depending on what operations are performed more frequently on the heap, a larger
 ## | [Chapter 2](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-2/v-8/373) | [Java](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/tree/master/Java/src/org/mlarocca/huffman) | [Python](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/tree/master/Python/mlarocca/datastructures/huffman) |
 
 
-[![An example of a Huffman code tree](./readme/thumbs/huffman.md.jpg)](./readme/huffman.jpg)
+[![An example of a Huffman code tree]
 
 Huffman's algorithm is probably the most famous data compression algorithm: a simple, brilliant greedy algorithm that, despite not being the state of the art for compression anymore, was a major breakthrough in the '50s.
 
@@ -43,13 +43,13 @@ A Huffman code is a tree, built bottom up, starting with the list of different c
 
 ## **Free article on Huffman Coding Algorithm**
 
-[![Huffman Coding](./readme/article_2.jpg)](https://freecontent.manning.com/data-compression-with-huffmans-algorithm/)
+[![Huffman Coding]](https://freecontent.manning.com/data-compression-with-huffmans-algorithm/)
 
 # **Treap**
 ## | [Chapter 3](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-3) | [Java](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/tree/master/Java/src/org/mlarocca/containers/treap) | [Jupyter Notebook (profiling)](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/Python/mlarocca/notebooks/treaps_profiling.ipynb) |
 
 
-[![Treap](./readme/thumbs/treap.md.jpg)](./readme/treap.jpg)
+[![Treap]]
 
 Treap is  the _portmanteau_ of tree and heap: binary search trees, in fact, offer the best average performance across all standard operations:  `insert`, `remove`  and `search`  (and also `min` and `max`). Heaps, on the other hand, allow to  efficiently keep track of priorities using a tree-like structure. Treaps merge the characteristics of these two data strucures to get the best of both.
 
@@ -57,7 +57,7 @@ Treap is  the _portmanteau_ of tree and heap: binary search trees, in fact, offe
 ## | [Chapter 4](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-4) | [JavaScript](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/tree/master/JavaScript/src/bloom_filter) |
 
 
-[![Checking a value in a Bloom filter](./readme/thumbs/bloom_filter.md.jpg)](./JavaScript/readme/bloom_filter.png)
+[![Checking a value in a Bloom filter]
 
 Bloom  filters  work like sets, storing entries and allowing fast lookup. In exchange of a (tunable) ratio of false positives, they allow  to store  large  sets  using  only a constant number of bits per key (while hash-tables, for instance, would require space proportional to the size of the keys).
 
@@ -66,7 +66,7 @@ Bloom  filters  work like sets, storing entries and allowing fast lookup. In exc
 ## | [Chapter 5](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-5) | [JavaScript](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/tree/master/JavaScript/src/disjointset) |
 
 
-[![An example of disjoint set](./readme/thumbs/union_find.md.jpg)](./readme/union_find.jpg)
+[![An example of disjoint set]
 
 We use a disjoint-set every time that, starting with a set of objects, we would like to account for the partitioning of this set into disjoint groups (i.e. sub-sets without any element in common between them).
 
@@ -75,7 +75,7 @@ We use a disjoint-set every time that, starting with a set of objects, we would 
 ## | [Chapter 6](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-6) | [Java](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/Java/src/org/mlarocca/containers/strings/trie/Trie.java) | [JavaScript](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/JavaScript/src/trie/trie.js) |
 
 
-[![An example of a trie](./readme/thumbs/trie.md.jpg)](./JavaScript/readme/trie.png)
+[![An example of a trie]
 
 This data structure allows to more efficiently store and query large sets of strings, assuming many of them share some common prefixes. Many applications manipulating  strings can  benefit from  using trie, from  spell-checkers to bioinformatics.
 
@@ -84,7 +84,7 @@ This data structure allows to more efficiently store and query large sets of str
 ## | [Chapter 6](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-6) | Java (in progress) | [JavaScript](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/JavaScript/src/trie/radix_tree.js) |
 
 
-[![An example of compressing a trie into a radix tree](./readme/thumbs/radix_tree_compression.md.jpg)](./JavaScript/readme/radix_tree_compression.png)
+[![An example of compressing a trie into a radix tree]
 
 Storing  tries  can be cheaper  than holding  these  values  in  binary  search trees  or  hash  tables, but  it  can require  a  lot of  memory. Radix  tries  compress  paths, whenever  possible, to provide  a  more  compact  representation  of  these  tries,  without having to compromise interms of complexity or performance.
 
@@ -92,7 +92,7 @@ Storing  tries  can be cheaper  than holding  these  values  in  binary  search 
 ## | [DEV.to](https://dev.to/mlarocca/ternary-search-trees-2cj7) | [Java](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/Java/src/org/mlarocca/containers/strings/tst/Tst.java) |
 
 
-[![An example of a TST](./readme/thumbs/tst.md.png)](./readme/tst.png)
+[![An example of a TST]]
 
 An alternative solution that can help us reduce the space overhead associated with tries nodes.
 
@@ -102,14 +102,14 @@ An alternative solution that can help us reduce the space overhead associated wi
 
 The Needleman–Wunsch algorithm is an algorithm used in bioinformatics to align protein or nucleotide sequences.
 
-![An example of Needleman–Wunsch alignment](./readme/needleman_wunsch_alignment.jpg)
+![An example of Needleman–Wunsch alignment]
 
 # **Cache**
 ## | [Chapter 7](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-7) | [Java](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/tree/master/Java/src/org/mlarocca/containers/cache) |
 
 
-[![An Example of LRU Cache](./readme/thumbs/LRU.md.jpg)](./readme/LRU.jpg)
-[![An Example of LFU Cache](./readme/thumbs/LFU.md.jpg)](./readme/LFU.jpg)
+[![An Example of LRU Cache]]
+[![An Example of LFU Cache]]
 
 Thread safe implementations of LRU and LFU caches: a data structure that is vital at many levels of internet-based applications, allowing to remember recently (or frequently) seen data and the saving remote call, or expensive computation, that would be needed to retrieve those data again.
 
@@ -117,7 +117,7 @@ Thread safe implementations of LRU and LFU caches: a data structure that is vita
 ## | [Chapter 9](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-9) | [JavaScript](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/tree/master/JavaScript/src/kd_tree) |
 
 
-[![A tri-dimensional k-d tree](./readme/thumbs/k-d_tree.md.jpg)](./JavaScript/readme/k-d_tree.png)
+[![A tri-dimensional k-d tree]]
 
 K-d  trees  are  an  advanced  data  structure  that  helps  performing  spatial queries  (nearest  neighbor  search  and  intersections  with  spherical  or  rectangular regions) more efficiently.
 K-d  trees  are  great  with  low-and  medium-dimensional  spaces,  but  suffer sparsity of high-dimensional spaces; they also work  better  on  static  datasets,  because  we  can  build  balanced trees on construction, but insert and remove are not self-balancing operations.
@@ -126,7 +126,7 @@ K-d  trees  are  great  with  low-and  medium-dimensional  spaces,  but  suffer 
 ## | [Chapter 10](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-10) | [JavaScript](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/tree/master/JavaScript/src/ss_tree) |
 
 
-[![An example of a similarity-search tree](./readme/thumbs/ss_tree.md.jpg)](./JavaScript/readme/ss_tree.png)
+[![An example of a similarity-search tree]]
 
 To overcome the issues with k-d trees, alternative data structures like R-trees and Ss-trees have been introduced.
 
@@ -138,20 +138,20 @@ Although  none of these structures can offer any  guarantee  on  the worst-case 
 ## | [Chapter 12](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-12) | [Chapter 13 (MapReduce)](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-13) | [Python](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/Python/mlarocca/datastructures/clustering/kmeans.py) | [Jupyter notebook (demo)](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/Python/mlarocca/notebooks/k_means.ipynb) | [Jupyter Notebook (profiling)](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/Python/mlarocca/notebooks/kmeans_profiling.ipynb) |
 
 
-[![K-means](./readme/thumbs/k-means.md.jpg)](./readme/k-means.jpg)
+[![K-means]]
 
 `k-means` is the simplest and oldest clustering algorithm; it partitions data in a pre-determined number of spherical clusters.
 
 
 ## **Free article on MapReduce**
 
-[![MapReduce](./readme/article_3.jpg)](https://freecontent.manning.com/explaining-mapreduce-with-ducks/)
+[![MapReduce]]
 
 # **DBSCAN**
 ## | [Chapter 12](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-12) | [Chapter 13 (MapReduce)](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-13) | [Python](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/Python/mlarocca/datastructures/clustering/dbscan.py) | [Jupyter notebook (demo)](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/Python/mlarocca/notebooks/dbscan.ipynb) |
 
 
-[![DBSCAN](./readme/thumbs/db_scan_steps.md.jpg)](./readme/db_scan_steps.jpg)
+[![DBSCAN]]
 
 `DBSCAN` is an acronym for “Density-based spatial clustering of applications with noise”, and the main difference in the approach with respect to `k-means` is already clear from its name: while k-means is a centroid-based algorithm, and as such builds clusters as convex sets around points elected as centroids, a density-based algorithm defines clusters as sets of points that are close to each other, close enough that the density of points in any area of a cluster is above a certain threshold.
 
@@ -159,7 +159,7 @@ Although  none of these structures can offer any  guarantee  on  the worst-case 
 ## | [Chapter 12](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-12) | [Python](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/Python/mlarocca/datastructures/clustering/optics.py) | [Jupyter notebook](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/master/Python/mlarocca/notebooks/optics.ipynb) |
 
 
-[![A dendrogram produced by OPTICS](./readme/thumbs/optics_dendrogram.md.jpg)](./readme/optics_dendrogram.jpg)
+[![A dendrogram produced by OPTICS]
 
 The idea behind `OPTICS` is that the order in which points are processed does matter, and in particular it can make sense to keep expanding a “frontier” for current cluster by adding the unprocessed point that is closest to the cluster (if it is reachable from the cluster).
 
@@ -167,7 +167,7 @@ The idea behind `OPTICS` is that the order in which points are processed does ma
 ## | [Chapter 13](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-13) |
 
 
-[![Canopy Clustering](./readme/thumbs/canopy_clustering.md.jpg)](./readme/canopy_clustering.jpg)
+[![Canopy Clustering]]
 
 `Canopy clustering` groups points into spherical regions (circles in our 2D examples), like `k-means`, but unlike it, these regions can overlap, and most points are assigned to more than one region.
 The canopy clustering algorithm is faster and simpler than k-means, as it runs in a single pass, doesn’t have to compute the centroids for the canopies (spherical pseudo-clusters), and doesn’t compare each point to each centroid; instead, it elects one point in the dataset as the center of each canopy, and adds points around it to the canopy.
@@ -177,7 +177,7 @@ The canopy clustering algorithm is faster and simpler than k-means, as it runs i
 ## | [Chapter 14](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-14) | [Java](https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/tree/master/Java/src/org/mlarocca/graph) | JavaScript: [JsGraphs](https://github.com/mlarocca/jsgraphs/) lib |
 
 
-[![Graph versus Tree](./readme/thumbs/graph_vs_tree.md.jpg)](./readme/graph_vs_tree.jpg)
+[![Graph versus Tree]
 
 A graph `G=(V,E)` is usually defined in terms of two sets:
 
@@ -198,7 +198,7 @@ Furthermore, trees have other peculiar characteristics that makes them a strict 
 # **Graph Embedding**
 ## | [Chapter 15](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-15) |
 
-[![Graph Embedding](./readme/thumbs/pcb+graph.md.jpg)](./readme/pcb+graph.jpg)
+[![Graph Embedding]
 
 Graphs are abstract data structures: to visualize them, it’s possible to embed a graph to a geometrical space, for example, it’s possible to create embeddings to the plane.
 
@@ -215,7 +215,7 @@ A **planar embedding** is an embedding that maps a graph to the plane, and none 
 # **Gradient Descent**
 ## | [Chapter 16](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-16) |
 
-[![Gradient Descent](./readme/thumbs/gradient_descent_with_marbles.md.jpg)](./readme/gradient_descent_with_marbles.jpg)
+[![Gradient Descent]]
 
 **Gradient descent** is a local optimization meta-heuristic: usually it starts by selecting a random solution, and then it uses the knowledge we have on the cost function to update the solution.
 
@@ -228,7 +228,7 @@ The algorithm is based on the geometric interpretation of cost functions; for di
 # **Simulated Annealing**
 ## | [Chapter 17](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-17) | [JavaScript](https://github.com/mlarocca/jsgraphs/blob/master/src/algo/simulated_annealing.mjs) (JsGraphs lib) |
 
-[![Simulated Annealing](./readme/thumbs/simulated_annealing_explained.md.jpg)](./readme/simulated_annealing_explained.jpg)
+[![Simulated Annealing]]
 
 **Simulated annealing** is a powerful optimization technique, able to balance narrow and broad search, exploring a large portion of the problem space and managing to make local progresses. It’s been around since the 1970s, and that explains why it’s one of the favorite heuristics used in optimization; during the last 20-30 years, new optimization techniques have been developed, but the adoption ratio for simulated annealing remained high, and recently it has also been revived with quantum annealing.
 
@@ -245,7 +245,7 @@ The caveat is that _gradient descent_ requires a differentiable cost function, a
 # **Genetic Algorithms**
 ## | [Chapter 18](https://livebook.manning.com/book/advanced-algorithms-and-data-structures/chapter-18) | [JavaScript](https://github.com/mlarocca/jsgraphs/blob/master/src/algo/genetic_algorithm.mjs) (JsGraphs lib) |
 
-[![Natural Selection](./readme/thumbs/natural_selection.md.jpg)](./readme/natural_selection.jpg)
+[![Natural Selection](./readme/thumbs/natural_selection.md.jpg)]
 
 While *gradient descent* and *simulated annealing* are great optimization techniques, they both have shortcomings: the former if fast but has a tendency to get stuck in local minima, and needs the cost function to be differentiable; the latter can be quite slow in converging.
 
