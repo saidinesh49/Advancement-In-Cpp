@@ -1,5 +1,5 @@
 
-![Book's Cover]
+#Book's Cover
 
 You can buy the book on Manning's web site:
 https://www.manning.com/books/advanced-algorithms-and-data-structures
