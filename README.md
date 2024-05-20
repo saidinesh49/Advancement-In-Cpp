@@ -1,3 +1,3 @@
 # Advancement-In-Cpp
-- This repo is usefull for both beginners & advanced programmers, where you will find some recommended books which can help you to understand cpp more in-depth.
-- And it is also usefull if you are preparing for CP(Competitive Programming).
+- This repo is useful for both beginners and advanced programmers. Here, you will find some recommended books which can help you understand C++ more in-depth.
+- It is also useful, if you are preparing for CP (Competitive Programming).
